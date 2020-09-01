@@ -146,9 +146,9 @@ def organise(curr, dest, sort, fileTypes, folderName):
 if __name__ == '__main__':
     img, doc, curr, dest, sort = init()
     if img == True:
-        types = ("*.png", "*.jpg", "*.gif", "*.jpeg", "*.svg", "*.uxf")
-        folderNames = ["png", "jpg", "gif", "jpeg",
-                       "svg", "uxf", "PNG", "JPG", "JPEG", "GIF", "SVG", "UXF"]
+        types = ("*.heic", "*.png", "*.jpg", "*.gif", "*.jpeg", "*.svg", "*.uxf")
+        folderNames = ["heic", "png", "jpg", "gif", "jpeg",
+                       "svg", "uxf", "PNG", "JPG", "JPEG", "GIF", "SVG", "UXF", "HEIC"]
         print("Organising -->\tImages......\n")
         organise(curr, dest, sort, types, folderNames)
 
